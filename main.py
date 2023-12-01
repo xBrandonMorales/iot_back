@@ -9,7 +9,7 @@ conn = sqlite3.connect("sql/devices.db")
 app = fastapi.FastAPI()
 
 origins = [
-    "https://8080-xbrandonmorale-iotfront-vf3nutzby8k.ws-us106.gitpod.io N "  # Cambia la URL según tu frontend de dispositivos
+    "https://8080-xbrandonmorale-iotfront-vf3nutzby8k.ws-us106.gitpod.io"  # Cambia la URL según tu frontend de dispositivos
 ]
 
 app.add_middleware(
